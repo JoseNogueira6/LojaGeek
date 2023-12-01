@@ -157,7 +157,7 @@ def adicionar_produto_ao_carrinho(carrinho, produto, quantidade):
 def finalizar_compra():
     carrinho
     if not carrinho:
-        print("Carrinho vazio. Nada a finalizar.")
+        print("Que pena você não se interessou por nada, ate a proxima!")
         return
     print("\nItens do carrinho:")
     print(carrinho)
@@ -218,24 +218,24 @@ while True: #loop para receber os comandos
     print('\nProdutos disponíveis no Catalogo da Loja')
     shop_items = {
     'Camisas': [
-        {'Nome': 'Pixel Adventure', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 49.90},
-        {'Nome': 'Code Master', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 39.90},
-        {'Nome': 'Galaxy Explorer', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 54.90},
-        {'Nome': 'Retro Gamer', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 45.00}
+        {'Nome': 'Camisa do Homem-aranha', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 49.90},
+        {'Nome': 'Camisa do Batman', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 39.90},
+        {'Nome': 'Camisa do Sonic', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 54.90},
+        {'Nome': 'Camisa do Super-Mario', 'Tamanhos': ['P', 'M', 'G'], 'Preço': 45.00}
     ],
 
     'Canecas': [
-        {'Nome': 'Binary Brew', 'Litros': 1, 'Preço': 29.90},
-        {'Nome': 'Code Conqueror', 'Litros': 2, 'Preço': 39.90},
-        {'Nome': 'Space Invader', 'Litros': 3, 'Preço': 49.90},
-        {'Nome': 'Pixel Potion', 'Litros': 1, 'Preço': 24.90}
+        {'Nome': 'Caneca Pac Man', 'Litros': 1, 'Preço': 29.90},
+        {'Nome': 'Caneca Groot', 'Litros': 2, 'Preço': 39.90},
+        {'Nome': 'Caneca Darth Vader', 'Litros': 3, 'Preço': 49.90},
+        {'Nome': 'Caneca Pikachu', 'Litros': 1, 'Preço': 24.90}
     ],
 
     'Quadrinhos': [
-        {'Nome': 'Chronicles of Code', 'Autor': 'Alex Developer', 'Editora': 'TechComics', 'Preço': 19.90},
-        {'Nome': 'Galactic Gamers', 'Autor': 'Sarah Pixel', 'Editora': 'GeekPress', 'Preço': 25.00},
-        {'Nome': 'Code Warriors', 'Autor': 'Chris Algorithm', 'Editora': 'ByteComics', 'Preço': 22.50},
-        {'Nome': 'Retro Adventures', 'Autor': 'Max Bit', 'Editora': 'PixelBooks', 'Preço': 18.00}
+        {'Nome': 'Quadrinho do Homem de Ferro', 'Autor': 'Stan Lee', 'Editora': 'Marvel', 'Preço': 19.90},
+        {'Nome': 'Quadrinho do Hulk', 'Autor': 'Stan Lee', 'Editora': 'Marvel', 'Preço': 25.00},
+        {'Nome': 'Quadrinho do Mandaloriano', 'Autor': 'Jon Favreau', 'Editora': 'LucasFilm', 'Preço': 22.50},
+        {'Nome': 'Quadrinho do Naruto', 'Autor': 'Masashi Kishimoto', 'Editora': 'Shueisha', 'Preço': 18.00}
     ]
 }
     print('\nCamisas')
